@@ -1,7 +1,9 @@
-// Imports
+// Imports route
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./component/header"
 import Home from "./pages/home"
+import Footer from './component/footer';
+import './css/footer.css'
 function App() {
 
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/YourAccount"/>
         <Route path="/Admin"/>
       </Routes>
+      <Footer />
     </Router>
   )
 }
