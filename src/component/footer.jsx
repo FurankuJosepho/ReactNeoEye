@@ -1,11 +1,11 @@
-import neo from '../assets/images/PNG/NeoEye.png';
+import neo from '../assets/Logo.png';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <article className="footer-row">
         <div className="footer-col">
-          <img className="logo" src={neo} alt="NeoEye Logo" />
+          <img className="logo" width={"50px"} height={"130px"} src={neo} alt="NeoEye Logo" />
         </div>
         <div className="footer-col">
           <div className="info-container">
