@@ -27,8 +27,11 @@ const booking = () => {
           </Form.Group>
         </Row>
         <Row className="mb-3">
-          <Form.Group>
+          <Form.Group as={Col}>
             <FormControl type="text" placeholder="Enter your Email" />
+          </Form.Group>
+          <Form.Group as={Col}>
+            <FormControl type="date" placeholder="Enter your Date" />
           </Form.Group>
         </Row>
         <Row className="mb-3 MaleFemaleRadio">
@@ -38,11 +41,6 @@ const booking = () => {
           <Col>
             <Form.Check type="radio" label="Female" name="GenderFemale" />
           </Col>
-        </Row>
-        <Row className="mb-3">
-          <Form.Group>
-            <FormControl type="date" placeholder="Enter your Date" />
-          </Form.Group>
         </Row>
         <Row className="mb-3">
           <Form.Group as={Col}>
