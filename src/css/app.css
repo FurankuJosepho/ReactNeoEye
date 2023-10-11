@@ -1,4 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --c-o: #fcc34f;
+  --c-db: #192e5b;
+  --c-sb: #70ced0;
+  --c-w: #fff;
+  --f-p: 'Poppins';
+}
+
+* {
+  font-family: var(--f-p);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.main {
+  margin-top: 120px;
 }

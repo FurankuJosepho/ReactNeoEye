@@ -1,0 +1,17 @@
+[
+  {
+    "image": "Hello",
+    "service": "CONSULTATION/DIAGNOSTICS",
+    "description": "A comprehensive medical examination that covers your overall health, including laboratory tests and consultations."
+  },
+  {
+    "image": "Hello",
+    "service": "EYE CARE SERVICE",
+    "description": "Protection from common diseases through vaccination, including guidance on the right vaccines for you and your family."
+  },
+  {
+    "image": "Hello",
+    "service": "EYEWEARS",
+    "description": "Customized treatment plans made for patients with long-term illnesses, including regular monitoring and check-ups."
+  }
+]
