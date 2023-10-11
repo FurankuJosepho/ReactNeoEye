@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const BookUS = {
         margin: "5px 20px",
-        padding: "20px",
+        padding: "10px",
         borderRadius: "7px",
         border: "2px solid #fff",
     }
