@@ -1,56 +1,63 @@
 .footer {
- color: white;
- background-color: #192E5B;
+  color: white;
+  background-color: #192e5b;
 }
 
 .footer .footer-row {
- display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
- padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
 }
 
-.footer ul, .social-container {
- margin: 5px 0;
- padding: 0;
+.colsan{
+ display: flex;
+ align-items: center;
+}
+
+.footer-col {
+  width: 250px;
+}
+
+.footer ul,
+.social-container {
+  margin: 5px 0;
+  padding: 0;
 }
 
 .footer ul li {
- list-style: none;
+  list-style: none;
 }
 
 .footer .logo {
- width: 135px;
+  width: 135px;
 }
 
 .info-container {
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-.info-container {
- display: flex;
- justify-content: start;
- align-items: center;
+.location,
+.phone,
+.envelope {
+  margin-right: 15px;
 }
 
-.location, .phone, .envelope {
- margin-right: 15px;
-}
-
-.customer-service, .about-us, .connect {
- text-transform: uppercase;
- margin-bottom: 0;
+.customer-service,
+.about-us,
+.connect {
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .social-container i {
- padding-right: 10px;
+  padding-right: 10px;
 }
 
 .copyright {
- background-color: #fff;
- color: #000;
- text-align: center;
- text-transform: capitalize;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
 }

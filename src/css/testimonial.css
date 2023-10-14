@@ -1,0 +1,15 @@
+.testimonial-container {
+  text-align: center;
+}
+
+.testimonial-text {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.comment-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 25px;
+  margin: 15px 40px;
+}

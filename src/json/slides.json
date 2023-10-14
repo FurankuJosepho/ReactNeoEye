@@ -1,10 +1,10 @@
 [
   {
-    "images": "slider 1",
+    "images": "../src/assets/JPG/slider1.jpg",
     "title": "slider 1"
   },
   {
-    "images": "slider 2",
+    "images": "../src/assets/JPG/slider2.jpg",
     "title": "slider 2"
   },
   {

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/testimonial.css'
 
 export const Testimonial = ({ comment }) => {
   return (
@@ -10,7 +11,9 @@ export const Testimonial = ({ comment }) => {
             return (
               <section className="comment-item">
                 <p>{comment.testimonial}</p>
-                <h5>-{comment.name}</h5>
+                <h5>
+                  <span>-{comment.name}</span>
+                </h5>
               </section>
             );
           })}

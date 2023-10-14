@@ -4,19 +4,25 @@ const Footer = () => {
   return (
     <footer className="footer">
       <article className="footer-row">
-        <div className="footer-col">
-          <img className="logo" width={"50px"} height={"130px"} src={neo} alt="NeoEye Logo" />
+        <div className="footer-col colsan">
+          <img
+            className="logo"
+            width={'50px'}
+            height={'130px'}
+            src={neo}
+            alt="NeoEye Logo"
+          />
         </div>
         <div className="footer-col">
           <div className="info-container">
-            <i className="fa-solid fa-location-dot location"></i>
-            <p className="address">
-              NeoVision Optical Building,
-              <br />
-              Malinao St., Malabo Mata,
-              <br />
-              Pulang-lupa, Phil.
-            </p>
+              <i className="fa-solid fa-location-dot location"></i>
+              <p className="address">
+                NeoVision Optical Building,
+                <br />
+                Malinao St., Malabo Mata,
+                <br />
+                Pulang-lupa, Phil.
+              </p>
           </div>
           <div className="info-container">
             <i className="fa-solid fa-phone phone"></i>
@@ -29,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="footer-col">
           <div className="service-container">
-            <h4 className="customer-service">customer service</h4>
+            <h4 className="customer-service">services</h4>
             <ul className="links">
               <li className="link">Consultation/Diagnostics</li>
               <li className="link">Eye care services</li>

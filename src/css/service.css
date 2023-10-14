@@ -1,0 +1,26 @@
+.service-container {
+ width: 99%;
+ margin: auto;
+}
+
+.service-text {
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 700;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  margin: 15px 40px;
+}
+
+.card-container .card-img {
+ border-radius: 15px;
+ margin-bottom: 10px;
+}
+
+.service {
+ text-align: center;
+}

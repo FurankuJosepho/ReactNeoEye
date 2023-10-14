@@ -1,0 +1,22 @@
+[
+  {
+    "image": "../src/assets/PNG/Dr.Jimbo.png",
+    "profession": "Opthalmologist",
+    "name": "Dr. Jimbo"
+  },
+  {
+    "image": "../src/assets/PNG/Dr.Nimpha.png",
+    "profession": "Opthalmologist",
+    "name": "Dra. Nimpha"
+  },
+  {
+    "image": "../src/assets/PNG/Dr.Tonio.png",
+    "profession": "Opthalmologist",
+    "name": "Dr. Tonio"
+  },
+  {
+    "image": "../src/assets/PNG/Dr.Donatello.png",
+    "profession": "Opthalmologist",
+    "name": "Dr. Donatello"
+  }
+]

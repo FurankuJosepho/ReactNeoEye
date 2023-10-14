@@ -5,7 +5,7 @@ export const Service = ({ service }) => {
     <>
       <div className="service-container">
         <h2 className='service-text'>services</h2>
-        <div className="card-container">
+        <div className="cards-container">
           {service.map((service) => {
             return (
               <section className="card-container">
@@ -15,8 +15,10 @@ export const Service = ({ service }) => {
                   alt={service.service}
                   key={service.image}
                 />
-                <h3>{service.service}</h3>
-                <p>{service.description}</p>
+                <div className='service'>
+                  <h3>{service.service}</h3>
+                  <p>{service.description}</p>
+                </div>
               </section>
             );
           })}
